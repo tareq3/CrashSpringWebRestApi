@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "4d7589b6-6c26-4be0-a91d-2a70e2902d40",
+		"name": "crash",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/ v1/person",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"tareq Islam\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/api/ v1/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						" v1",
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/ v1/person",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/api/ v1/person",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						" v1",
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/ v1/person/761dc86d-07ac-494c-84f1-06e11c00cf89",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/api/ v1/person/61ffd173-d5c6-4bfb-a2f1-8a39ed35c422",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						" v1",
+						"person",
+						"61ffd173-d5c6-4bfb-a2f1-8a39ed35c422"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/ v1/person/ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"tareq islam\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/api/ v1/person/ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						" v1",
+						"person",
+						"ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/ v1/person/ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/api/ v1/person/ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						" v1",
+						"person",
+						"ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
