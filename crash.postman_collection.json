@@ -19,17 +19,17 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"name\":\"tareq Islam\"\n}"
+					"raw": "{\n\t\"name\":\"Shadow Islam\"\n}"
 				},
 				"url": {
-					"raw": "localhost:8080/api/ v1/person",
+					"raw": "localhost:8080/api/v1/person",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
 						"api",
-						" v1",
+						"v1",
 						"person"
 					]
 				}
@@ -53,14 +53,14 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:8080/api/ v1/person",
+					"raw": "localhost:8080/api/v1/person",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
 						"api",
-						" v1",
+						"v1",
 						"person"
 					]
 				}
@@ -84,23 +84,23 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:8080/api/ v1/person/61ffd173-d5c6-4bfb-a2f1-8a39ed35c422",
+					"raw": "localhost:8080/api/v1/person/529c0edf-04d0-4ede-85ec-ab31ff2be346",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
 						"api",
-						" v1",
+						"v1",
 						"person",
-						"61ffd173-d5c6-4bfb-a2f1-8a39ed35c422"
+						"529c0edf-04d0-4ede-85ec-ab31ff2be346"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "localhost:8080/api/ v1/person/ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b",
+			"name": "localhost:8080/api/v1/person?id=529c0edf-04d0-4ede-85ec-ab31ff2be346",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -116,23 +116,28 @@
 					"raw": "{\n\t\"name\": \"tareq islam\"\n}"
 				},
 				"url": {
-					"raw": "localhost:8080/api/ v1/person/ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b",
+					"raw": "localhost:8080/api/v1/person?id=529c0edf-04d0-4ede-85ec-ab31ff2be346",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
 						"api",
-						" v1",
-						"person",
-						"ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b"
+						"v1",
+						"person"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "529c0edf-04d0-4ede-85ec-ab31ff2be346"
+						}
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "localhost:8080/api/ v1/person/ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b",
+			"name": "localhost:8080/api/v1/person?id=529c0edf-04d0-4ede-85ec-ab31ff2be346",
 			"request": {
 				"method": "DELETE",
 				"header": [
@@ -148,16 +153,21 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:8080/api/ v1/person/ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b",
+					"raw": "localhost:8080/api/v1/person?id=529c0edf-04d0-4ede-85ec-ab31ff2be346",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
 						"api",
-						" v1",
-						"person",
-						"ab2e47fc-1f78-4d56-9f9e-da8ef5c5c63b"
+						"v1",
+						"person"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "529c0edf-04d0-4ede-85ec-ab31ff2be346"
+						}
 					]
 				}
 			},
