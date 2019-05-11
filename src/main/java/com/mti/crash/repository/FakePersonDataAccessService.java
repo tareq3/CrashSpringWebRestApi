@@ -1,6 +1,6 @@
-package com.mti.crash.dao;
+package com.mti.crash.repository;
 
-import com.mti.crash.model.Person;
+import com.mti.crash.domain.Person;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

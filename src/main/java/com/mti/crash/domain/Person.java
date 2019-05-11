@@ -1,4 +1,4 @@
-package com.mti.crash.model;
+package com.mti.crash.domain;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

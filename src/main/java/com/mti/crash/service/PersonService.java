@@ -1,7 +1,7 @@
 package com.mti.crash.service;
 
-import com.mti.crash.dao.PersonDao;
-import com.mti.crash.model.Person;
+import com.mti.crash.repository.PersonDao;
+import com.mti.crash.domain.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

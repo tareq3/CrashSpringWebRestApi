@@ -1,17 +1,16 @@
 package com.mti.crash.api;
 
-import com.mti.crash.model.Person;
+import com.mti.crash.domain.Person;
 import com.mti.crash.service.PersonService;
 import com.sun.istack.internal.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
 import java.util.UUID;
 
-@RequestMapping("api/ v1/person")
+@RequestMapping("api/v1/person")
 @RestController
 public class PersonController {
     private final PersonService personService;
@@ -36,13 +35,13 @@ public class PersonController {
         return personService.getPersonById(uuid).orElse(null);
     }
 
-    @DeleteMapping(path = "{id}")
-    public void deletePersonById(@PathVariable("id") UUID uuid) {
-        personService.deletePerson(uuid);
+    @PutMapping()
+    public void updatePerson(@RequestParam(name = "id") UUID uuid, @Valid @NotNull @RequestBody Person person){
+        personService.updatePerson(uuid, person);
     }
 
-    @PutMapping(path = "{id}")
-    public void updatePersonById(@PathVariable("id") UUID uuid, @Valid @NotNull @RequestBody Person person){
-        personService.updatePerson(uuid,person);
+    @DeleteMapping()
+    public void deletePerson(@RequestParam(name = "id") UUID uuid) {
+        personService.deletePerson(uuid);
     }
 }
